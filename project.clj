@@ -1,4 +1,4 @@
-(defproject com.topmonks/qlkit-re-charts "0.3.0-SNAPSHOT"
+(defproject com.topmonks/qlkit-re-charts "0.3.1-SNAPSHOT"
   :description "qlkit wrapper for re-charts"
   :url "https://github.com/topmonks/qlkit-re-charts"
 
@@ -13,7 +13,7 @@
   :dependencies
   [[org.clojure/clojure "1.9.0" :scope "provided"]
    [org.clojure/clojurescript "1.9.946" :scope "provided"]
-   [cljsjs/recharts "1.0.0-beta.10-0"]
+   [cljsjs/recharts "1.0.0-beta.10-2"]
    [qlkit "0.3.0-SNAPSHOT" :scope "provided"]]
 
   :jar-exclusions
