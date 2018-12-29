@@ -11,9 +11,9 @@
   :jvm-opts ^:replace ["-Xms512m" "-Xmx512m" "-server"]
 
   :dependencies
-  [[org.clojure/clojure "1.9.0" :scope "provided"]
-   [org.clojure/clojurescript "1.9.946" :scope "provided"]
-   [cljsjs/recharts "1.0.0-beta.10-2"]
+  [[org.clojure/clojure "1.10.0" :scope "provided"]
+   [org.clojure/clojurescript "1.10.439" :scope "provided"]
+   [cljsjs/recharts "1.4.2-0"]
    [qlkit "0.3.0-SNAPSHOT" :scope "provided"]]
 
   :jar-exclusions
@@ -39,4 +39,4 @@
   {:debug {:debug true}
    :dev
    {:dependencies
-    [[binaryage/devtools "0.9.9"]]}})
+    [[binaryage/devtools "0.9.10"]]}})

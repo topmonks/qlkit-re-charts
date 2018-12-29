@@ -10,6 +10,7 @@
 
 (def ^:private components
   {:cell recharts/Cell
+   :funnel recharts/Funnel
    :label recharts/Label
    :label-list recharts/LabelList
    :legend recharts/Legend
@@ -24,7 +25,8 @@
    :polygon recharts/Polygon
    :rectangle recharts/Rectangle
    :sector recharts/Sector
-   :symbols recharts/Symbols})
+   :symbols recharts/Symbols
+   :trapezoid recharts/Trapezoid})
 
 (def ^:private cartesian
   {:area recharts/Area
@@ -54,6 +56,7 @@
   {:area-chart recharts/AreaChart
    :bar-chart recharts/BarChart
    :composed-chart recharts/ComposedChart
+   :funnel-chart recharts/FunnelChart
    :line-chart recharts/LineChart
    :pie-chart recharts/PieChart
    :radar-chart recharts/RadarChart
